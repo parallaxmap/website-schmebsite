@@ -20,3 +20,9 @@ theme = 'scuttle'
     name = 'contact'
     pageRef = '/contact'
     weight = 40
+
+[taxonomies]
+  menu = "menus"
+  music = "musics"
+  project = "projects"
+  contact = "contacts"
