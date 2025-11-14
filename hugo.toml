@@ -22,7 +22,6 @@ theme = 'scuttle'
     weight = 40
 
 [taxonomies]
-  menu = "menus"
-  music = "musics"
+  music = "music"
   project = "projects"
   contact = "contacts"
