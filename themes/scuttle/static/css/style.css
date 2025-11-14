@@ -3,3 +3,78 @@
 * {
     font-family: 'Syne Mono', monospace;
 }
+
+:root {
+    /* colour palette */
+    --beige: #e3e7d3ff;
+    --silver: rgb(108, 112, 110);
+    --battleship-gray: #989c94ff;
+    --black-olive: #25291cff;
+    --vanilla: #e6e49fff;
+}
+
+html {
+    background: var(--battleship-gray);
+    max-width: 600px;
+    margin: 0 auto;
+
+    background-image: radial-gradient(var(--silver) 1px, transparent 0);
+    background-size: 3px 3px;
+    background-position: -19px -19px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 10px 0px;
+}
+
+h1 {
+    text-shadow: 
+        1px 1px 0px var(--silver),
+        1.5px 1.5px 0px var(--silver),
+        2px 2px 0px var(--silver),
+        3.5px 3.5px 0px var(--silver),
+        2.5px 2.5px 0px var(--silver),
+        4px 4px 0px var(--silver),
+        3px 3px 0px var(--silver);
+
+    border-bottom: 2px solid var(--silver);
+}
+
+#content {
+    background: var(--battleship-gray);
+    color: var(--black-olive);
+    padding: 0 15px;
+    border: 2px solid var(--silver);
+        box-shadow: 
+        1px 1px 0px var(--silver),
+        1.5px 1.5px 0px var(--silver),
+        2px 2px 0px var(--silver),
+        3.5px 3.5px 0px var(--silver),
+        2.5px 2.5px 0px var(--silver),
+        4px 4px 0px var(--silver),
+        3px 3px 0px var(--silver);
+}
+
+a {
+    color: var(--black-olive);
+}
+
+header {
+    background: var(--battleship-gray);
+    color: var(--black-olive);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid var(--silver);
+        box-shadow: 
+        1px 1px 0px var(--silver),
+        1.5px 1.5px 0px var(--silver),
+        2px 2px 0px var(--silver),
+        3.5px 3.5px 0px var(--silver),
+        2.5px 2.5px 0px var(--silver),
+        4px 4px 0px var(--silver),
+        3px 3px 0px var(--silver);
+
+    display: flex;
+    flex-direction: row;
+}

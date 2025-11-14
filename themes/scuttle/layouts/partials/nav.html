@@ -1,13 +1,11 @@
 <header>
     <nav>
-        <a class="logo" href="{{ .Site.BaseURL }}"></a>
+        <h1>
+            <a class="logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </h1>
 
-        <ul class="menu">
-            {{ range .Site.Menus.main }}
-            <li>
-                <a href="{{ .PageRef }}">{{ .Name }}</a>
-            </li>
-            {{ end }}
-        </ul>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .PageRef }}">{{ .Name }}</a>
+        {{ end }}
     </nav>
 </header>
