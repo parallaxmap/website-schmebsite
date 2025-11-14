@@ -5,7 +5,7 @@
         <ul class="menu">
             {{ range .Site.Menus.main }}
             <li>
-                <a href="{{ .URL }}">{{ .Name }}</a>
+                <a href="{{ .PageRef }}">{{ .Name }}</a>
             </li>
             {{ end }}
         </ul>
