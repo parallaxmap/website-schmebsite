@@ -18,7 +18,7 @@ theme = 'scuttle'
     weight = 20
   [[menus.main]]
     name = 'photos'
-    pageRef = 'www.flickr.com/photos/203485108@N06/'
+    pageRef = 'https//www.flickr.com/photos/203485108@N06/'
     weight = 21
   [[menus.main]]
     name = 'projects'
