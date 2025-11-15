@@ -6,11 +6,11 @@
 
 :root {
     /* colour palette */
-    --beige: #e3e7d3ff;
-    --silver: rgb(108, 112, 110);
-    --battleship-gray: #989c94ff;
-    --black-olive: #25291cff;
-    --vanilla: #e6e49fff;
+    --beige: #e3e7d3;
+    --silver: #6c706e;
+    --battleship-gray: #989c94;
+    --black-olive: #25291c;
+    --vanilla: #e6e49f;
 }
 
 html {
@@ -54,14 +54,23 @@ h1 {
         2.5px 2.5px 0px var(--silver),
         4px 4px 0px var(--silver),
         3px 3px 0px var(--silver);
+    border-radius: 20px 5px;
 }
 
 a {
     color: var(--black-olive);
 }
 
+a:hover {
+    background: var(--black-olive);
+    color: var(--battleship-gray);
+    border-radius: 8px 0px;
+}
+
 header {
-    background: var(--battleship-gray);
+    background: url("/images/header.png");
+    background-position: center;
+    background-size: cover;
     color: var(--black-olive);
     padding: 15px;
     margin-bottom: 15px;
@@ -73,8 +82,31 @@ header {
         3.5px 3.5px 0px var(--silver),
         2.5px 2.5px 0px var(--silver),
         4px 4px 0px var(--silver),
-        3px 3px 0px var(--silver);
+        3px 3px 0px var(--silver);    
+    border-radius: 20px 5px;
+}
 
+header h1 {
+    display: block;
+    border: none;
+}
+
+header h1 a {
+    text-decoration: none !important;
+    padding: 0px 5px 5px 0px;
+    border-radius: 15px 0px;
+}
+
+header h1 a:hover {
+    background: rgba(38, 42, 29, 0.8);
+}
+
+nav {
+    color: var(--battleship-gray) !important;
+    background: var(--battleship-gray);
+    border: 2px solid var(--silver);
     display: flex;
-    flex-direction: row;
+    padding: 5px 12px;
+    gap: 15px;
+    border-radius: 15px 5px;
 }
