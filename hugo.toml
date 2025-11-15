@@ -17,6 +17,10 @@ theme = 'scuttle'
     pageRef = '/music'
     weight = 20
   [[menus.main]]
+    name = 'photos'
+    pageRef = 'www.flickr.com/photos/203485108@N06/'
+    weight = 21
+  [[menus.main]]
     name = 'projects'
     pageRef = '/projects'
     weight = 30
