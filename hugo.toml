@@ -20,6 +20,10 @@ theme = 'scuttle'
     name = 'contact'
     pageRef = '/contact'
     weight = 40
+  [[menus.main]]
+    name = 'git'
+    pageRef = 'https://git.sr.ht/~minilop/'
+    weight = 50
 
 [taxonomies]
   music = "music"
