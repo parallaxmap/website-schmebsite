@@ -105,8 +105,10 @@ nav {
     color: var(--battleship-gray) !important;
     background: var(--battleship-gray);
     border: 2px solid var(--silver);
-    display: flex;
     padding: 5px 12px;
-    gap: 15px;
     border-radius: 15px 5px;
+}
+
+nav a {
+    margin-right: 5px;
 }
