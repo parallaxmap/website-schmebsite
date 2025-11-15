@@ -2,12 +2,25 @@
 
 {{ .Content }}
 
+<h2>what i'm listening to:</h2>
+<a href="" id="now-playing">...check my listenbrainz!</a>
+
+
+
+<hr>
+<p>
+the source code for this site can be found <a href="https://git.sr.ht/~minilop/scuttlersite">here</a>. feel free to do whatever with it, and show me what you’ve done if you done did it…
+
+</p>
+
 <hr>
 {{ .Date.Format "January 2, 2006" }} / last updated {{ .Lastmod.Format "January 2, 2006" }} 
-
 {{ if .Params.tags }}
 <hr>
     <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
 {{ end }}
 
+<script src="js/brainz.js"></script>
+
 {{ partial "footer.html" . }}
+
