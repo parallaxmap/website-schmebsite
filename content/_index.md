@@ -24,3 +24,7 @@ in addition to being ***a scuttlerpod***, i also make ***music & hardware** unde
 ## pleasant projects:
 - [Team Fortress 2: Gold Rush](https://tf2goldrush.com)
 - [Pepsi, my one true love](/images/pepsi.png)
+
+---
+
+the source code for this site can be found [here](https://git.sr.ht/~minilop/scuttlersite). feel free to do whatever with it, and show me what you've done if you done did it...
