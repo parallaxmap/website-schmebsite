@@ -14,21 +14,26 @@
 }
 
 html {
+    min-height: 100vh;
     background: var(--battleship-gray);
     max-width: 600px;
     margin: 0 auto;
 
-    background-image: radial-gradient(var(--silver) 1px, transparent 0);
-    background-size: 3px 3px;
-    background-position: -19px -19px;
+    background-image: 
+        radial-gradient(var(--silver) 1px, transparent 0);
+    background-size: 
+        3px 3px;
+    background-position: 
+        -19px -19px;
 }
 
-h1, h2, h3, h4 {
-    margin: 0;
-    padding: 10px 0px;
+h1, h2, h3, h4, p, ul {
+    margin: 0px 0px 15px 0;
 }
+
 
 h1 {
+    padding-bottom: 10px;
     text-shadow: 
         1px 1px 0px var(--silver),
         1.5px 1.5px 0px var(--silver),
@@ -44,7 +49,7 @@ h1 {
 #content {
     background: var(--battleship-gray);
     color: var(--black-olive);
-    padding: 0 15px;
+    padding: 15px;
     border: 2px solid var(--silver);
         box-shadow: 
         1px 1px 0px var(--silver),
@@ -89,6 +94,7 @@ header {
 header h1 {
     display: block;
     border: none;
+    margin: 15px 0px 0px 0px;
 }
 
 header h1 a {
@@ -110,5 +116,5 @@ nav {
 }
 
 nav a {
-    margin-right: 5px;
+    margin-right: 4px;
 }
