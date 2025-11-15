@@ -5,14 +5,20 @@
 {{ .Content }}
 
 <ul>
-{{ range .Site.Pages }}
-  {{ if in .Params.menu .Params.menu }}
+    {{ range .Pages }}
     <li>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <br>
+        <span>{{ .Date.Format "January 2, 2006" }} {{ range .Params.tags }} | <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>
     </li>
-  {{ end }}
-{{ end }}
+    {{ end }}
 </ul>
+
+
+{{ if .Params.tags }}
+<hr>
+    <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
+{{ end }}
 
 {{ partial "footer.html" . }}
 

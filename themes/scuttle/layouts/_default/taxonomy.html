@@ -1,18 +1,19 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
+<h1>Tag: {{ .Title }}</h1>
 
 {{ .Content }}
-
-<h2>Categories</h2>
 
 <ul>
     {{ range .Pages }}
     <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <span> - {{ .Date.Format "January 2, 2006" }}</span>
+        <br>
+        <span>{{ .Date.Format "January 2, 2006" }}</span>
     </li>
     {{ end }}
 </ul>
 
+
 {{ partial "footer.html" . }}
+

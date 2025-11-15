@@ -27,6 +27,15 @@ html {
         -19px -19px;
 }
 
+hr {
+    border: solid 1px var(--silver);
+    margin: 15px 0;
+}
+
+img {
+    width: 100%;
+}
+
 h1, h2, h3, h4, p, ul {
     margin: 0px 0px 15px 0;
 }

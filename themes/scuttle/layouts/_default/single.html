@@ -4,4 +4,11 @@
 
 {{ .Content }}
 
+
+{{ if .Params.tags }}
+<hr>
+    <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
+{{ end }}
+
+
 {{ partial "footer.html" . }}
