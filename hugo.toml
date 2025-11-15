@@ -29,5 +29,8 @@ theme = 'scuttle'
     pageRef = 'https://git.sr.ht/~minilop/'
     weight = 50
 
+[output]
+  blog = ['html', 'rss']
+
 [taxonomies]
   tags = "tags"
