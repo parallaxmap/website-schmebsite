@@ -7,8 +7,10 @@
 
 {{ if .Params.tags }}
 <hr>
-    <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
+    <i>tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
 {{ end }}
 
+<hr>
+{{ lower (.Date.Format "January 2, 2006") }} / last updated {{ lower (.Lastmod.Format "January 2, 2006") }} 
 
 {{ partial "footer.html" . }}

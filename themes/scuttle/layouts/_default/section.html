@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+
 <h1>{{ .Title }}</h1>
 
 {{ .Content }}
@@ -9,15 +10,19 @@
     <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         <br>
-        <span>{{ .Date.Format "January 2, 2006" }} {{ range .Params.tags }} | <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>
+        <span>{{ lower (.Lastmod.Format "January 2, 2006") }} {{ range .Params.tags }} | <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>
     </li>
     {{ end }}
 </ul>
 
 
+<hr>
+{{ lower (.Date.Format "January 2, 2006") }} / last updated {{ lower (.Lastmod.Format "January 2, 2006") }} 
+
+
 {{ if .Params.tags }}
 <hr>
-    <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
+    <i>tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
 {{ end }}
 
 {{ partial "footer.html" . }}

@@ -9,6 +9,10 @@ theme = 'scuttle'
     pageRef = '/'
     weight = 10
   [[menus.main]]
+    name = 'blog'
+    pageRef = '/blog'
+    weight = 15
+  [[menus.main]]
     name = 'music'
     pageRef = '/music'
     weight = 20

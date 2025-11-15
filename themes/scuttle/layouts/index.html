@@ -2,4 +2,12 @@
 
 {{ .Content }}
 
+<hr>
+{{ .Date.Format "January 2, 2006" }} / last updated {{ .Lastmod.Format "January 2, 2006" }} 
+
+{{ if .Params.tags }}
+<hr>
+    <i>Tags: {{ range .Params.tags }} <a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}</i>
+{{ end }}
+
 {{ partial "footer.html" . }}
