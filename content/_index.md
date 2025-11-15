@@ -1,7 +1,26 @@
 +++
 date = '2025-11-13T18:38:46Z'
+lastmod = '2025-11-15T18:38:46Z'
 +++
 
-# the website of all time
+# welcome
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+![](/images/index.png)
+
+i am **scuttlerpod**. i am ***a scuttlerpod***. this is my website. you can do **anything** at **scuttlerpod**. anything at all. the only limit, is yourself.
+
+in addition to being ***a scuttlerpod***, i also make ***music & hardware** under **"brainchild"***.
+
+## pod pals:
+- [roxwize](https://roxwize.xyz)
+- [Conneath](https://conneath.net)
+- [iteruum.net](https://iteruum.net/)
+- [Synteny](https://synteny.bandcamp.com/) (i co-own this!)
+- [XoArK](https://xoark.bandcamp.com/)
+- [StareFaceOgre](https://starefaceogre.com)
+- [sadotterz](https://blog.otterzweb.site)
+- [Loess Labs](https://loess-labs.net/)
+
+## pleasant projects:
+- [Team Fortress 2: Gold Rush](https://tf2goldrush.com)
+- [Pepsi, my one true love](/images/pepsi.png)
