@@ -16,6 +16,7 @@ in addition to being ***a scuttlerpod***, i also make ***music & hardware** unde
 - [Conneath](https://conneath.net)
 - [iteruum.net](https://iteruum.net/)
 - [Synteny](https://synteny.bandcamp.com/) (i co-own this!)
+- [qylyp pill](https://qylyp.nekoweb.org/) (co-owns Synteny with me!)
 - [XoArK](https://xoark.bandcamp.com/)
 - [StareFaceOgre](https://starefaceogre.com)
 - [sadotterz](https://blog.otterzweb.site)
